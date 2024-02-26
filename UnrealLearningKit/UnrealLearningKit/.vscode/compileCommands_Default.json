@@ -1,0 +1,42 @@
+[
+	{
+		"file": "C:\\Users\\rosst\\GIT-PROJECTS\\UnrealLearning\\UnrealLearningKit\\UnrealLearningKit\\Source\\UnrealLearningKit\\MovingPlatform.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\rosst\\GIT-PROJECTS\\UnrealLearning\\UnrealLearningKit\\UnrealLearningKit\\.vscode\\compileCommands_Default\\UnrealLearningKit.249.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\rosst\\GIT-PROJECTS\\UnrealLearning\\UnrealLearningKit\\UnrealLearningKit\\Source\\UnrealLearningKit\\MovingPlatform.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\rosst\\GIT-PROJECTS\\UnrealLearning\\UnrealLearningKit\\UnrealLearningKit\\.vscode\\compileCommands_Default\\UnrealLearningKit.249.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\rosst\\GIT-PROJECTS\\UnrealLearning\\UnrealLearningKit\\UnrealLearningKit\\Source\\UnrealLearningKit\\UnrealLearningKit.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\rosst\\GIT-PROJECTS\\UnrealLearning\\UnrealLearningKit\\UnrealLearningKit\\.vscode\\compileCommands_Default\\UnrealLearningKit.249.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\rosst\\GIT-PROJECTS\\UnrealLearning\\UnrealLearningKit\\UnrealLearningKit\\Source\\UnrealLearningKit\\UnrealLearningKit.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\rosst\\GIT-PROJECTS\\UnrealLearning\\UnrealLearningKit\\UnrealLearningKit\\.vscode\\compileCommands_Default\\UnrealLearningKit.249.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\rosst\\GIT-PROJECTS\\UnrealLearning\\UnrealLearningKit\\UnrealLearningKit\\Source\\UnrealLearningKit\\UnrealLearningKit.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@C:\\Users\\rosst\\GIT-PROJECTS\\UnrealLearning\\UnrealLearningKit\\UnrealLearningKit\\.vscode\\compileCommands_Default\\UnrealLearningKit.249.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	}
+]
