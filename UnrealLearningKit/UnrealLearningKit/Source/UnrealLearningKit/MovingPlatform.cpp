@@ -18,7 +18,7 @@ void AMovingPlatform::BeginPlay()
 	
 	TextOutput = "BeginPlay";
 
-	MyVector.X = MyX;
+	SetActorLocation(MyVector);
 }
 
 // Called every frame

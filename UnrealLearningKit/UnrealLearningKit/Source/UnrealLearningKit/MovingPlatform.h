@@ -27,7 +27,7 @@ public:
 	FString TextOutput = "initial text output";
 
 	UPROPERTY(EditAnywhere)
-	FVector MyVector = FVector(1, 2, 3);
+	FVector MyVector = FVector(-12540.0, -2240.0, 4056.0);
 
 	UPROPERTY(EditAnywhere)
 	float MyX = 0;
