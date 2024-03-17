@@ -22,15 +22,9 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString TextOutput = "initial text output";
-
-	UPROPERTY(EditAnywhere)
-	FVector MyVector = FVector(-12540.0, -2240.0, 4056.0);
-
-	UPROPERTY(EditAnywhere)
-	float MyX = 0;
 
 	UPROPERTY(EditAnywhere)
 	float PlatformSpeed = 1.0f;
@@ -38,6 +32,12 @@ public:
 	UPROPERTY(EditAnywhere)
 	bool MyBool = true;
 
+	UPROPERTY(EditAnywhere, Category="Moving Platform")
+	FVector PlatformVelocity = FVector(0, 0, 200);
 
+	UPROPERTY(VisibleAnywhere)
+	float MoveDistance = 500;
+
+	FVector StartLocation;
 
 };

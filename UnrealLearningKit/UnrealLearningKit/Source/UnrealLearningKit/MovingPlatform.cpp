@@ -18,6 +18,8 @@ void AMovingPlatform::BeginPlay()
 	
 	TextOutput = "BeginPlay";
 
+	StartLocation = GetActorLocation();
+
 }
 
 // Called every frame
@@ -25,9 +27,28 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	MyVector.Y = MyVector.Y + 1;
+	// Move the plat forwards
+		// get the current location
+	FVector CurrentLocation = GetActorLocation();
+		
+		// add a vector to that loc
+	CurrentLocation = CurrentLocation + PlatformVelocity*DeltaTime;
+		// set the location
 
-	SetActorLocation(MyVector);
+	SetActorLocation(CurrentLocation );
+	// send it back if gone too far
+		// check how far we moved
+		// reverse direction if we went too far 
+
+	float  DistanceMoved = FVector::Dist(StartLocation, CurrentLocation);
+
+	if (DistanceMoved   > MoveDistance) {
+		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
+		StartLocation = StartLocation+MoveDirection*MoveDistance;
+		SetActorLocation(StartLocation);
+
+		PlatformVelocity = -PlatformVelocity;
+	}
 
 	TextOutput = "Tick";
 
