@@ -16,7 +16,6 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	TextOutput = "BeginPlay";
 
 	StartLocation = GetActorLocation();
 
@@ -27,6 +26,7 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	/*
 	// Move the plat forwards
 		// get the current location
 	FVector CurrentLocation = GetActorLocation();
@@ -50,8 +50,7 @@ void AMovingPlatform::Tick(float DeltaTime)
 		PlatformVelocity = -PlatformVelocity;
 	}
 
-	TextOutput = "Tick";
-
+	*/
 
 }
 
