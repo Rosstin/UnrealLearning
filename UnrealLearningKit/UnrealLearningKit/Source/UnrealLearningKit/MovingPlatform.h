@@ -32,10 +32,10 @@ public:
 	UPROPERTY(EditAnywhere)
 	bool MyBool = true;
 
-	UPROPERTY(EditAnywhere, Category="Moving Platform")
+	UPROPERTY(EditAnywhere, Category="MP EDIT")
 	FVector PlatformVelocity = FVector(0, 0, 200);
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere, Category = "MP EDIT")
 	float MoveDistance = 500;
 
 	FVector StartLocation;
